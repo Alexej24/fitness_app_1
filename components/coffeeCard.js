@@ -1,0 +1,124 @@
+import { View, Text, Image, TouchableOpacity, TouchableWithoutFeedback, Dimensions, Platform } from 'react-native'
+import React from 'react'
+import { themeColors } from '../theme'
+import { useNavigation } from '@react-navigation/native'
+import { StarIcon } from 'react-native-heroicons/solid';
+import { PlusIcon } from 'react-native-heroicons/outline';
+import { chestItems,absItems, bicepsItems, backItems, legsItems } from '../constants';
+const {width, height} = Dimensions.get('window');
+const ios = Platform.OS == 'ios';
+export default function CoffeeCard({item}) {
+  const navigation = useNavigation();
+  let exercises;
+  switch(item.id){
+    case 1:{
+<<<<<<< HEAD
+      exercises = chestItems;
+      break;
+    }
+    case 2:{
+      exercises = legsItems;
+      break;
+    }
+    case 3:{
+      exercises = absItems;
+      break;
+    }
+    case 4:{
+      exercises = backItems;
+      break;
+    }
+    case 5:{
+      exercises = bicepsItems;
+      break;
+    }
+    default: {
+      exercises = [];
+      break;
+    }
+  }
+=======
+      exercises = chestItems
+    }
+    case 2:{
+      exercises = legsItems
+    }
+    case 3:{
+      exercises = absItems
+    }
+    case 4:{
+      exercises = backItems
+    }
+    case 5:{
+      exercises = bicepsItems
+    }
+  }
+
+>>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
+  return (
+
+      <View 
+        style={{
+          borderRadius: 40, 
+          backgroundColor: themeColors.bgDark, 
+          height: ios? height*0.4 : height*0.50, 
+          width: width*0.65,
+        }} 
+        >
+        <View 
+        style={{
+          shadowColor: 'black',
+          shadowRadius: 30,
+          shadowOffset: {width: 0, height: 40},
+          shadowOpacity: 0.8,
+          marginTop: ios? -(height*0.08): 15,
+        }}
+        className="flex-row justify-center">
+          <Image 
+            source={item.image} 
+            className="h-40 w-40" 
+          />
+        </View>
+          <View className={`px-5 flex-1 justify-between ${ios? 'mt-5': ''}`}>
+            <View className="space-y-3 mt-3">
+              <Text className="text-3xl text-white font-semibold z-10">
+                {item.name}
+              </Text>
+              <View style={{backgroundColor: 'rgba(255,255,255,0.2)'}} 
+                className="flex-row items-center rounded-3xl p-1 px-2 space-x-1 w-16">
+                <StarIcon size="15" color="white" />
+                <Text className="text-base font-semibold text-white">{item.stars}</Text>
+              </View>
+              <View className="flex-row space-x-1 z-10 mb-6">
+                <Text className="text-base text-white font-semibold opacity-60">
+                  Important  
+                </Text>
+                <Text className="text-base text-white font-semibold"> {item.important}</Text>
+              </View>
+            </View>
+            
+
+            <View style={{
+              backgroundColor: ios? themeColors.bgDark: 'transparent',
+              shadowColor: themeColors.bgDark,
+              shadowRadius: 25,
+              shadowOffset: {width: 0, height: 40},
+              shadowOpacity: 0.8,
+            }} className="flex-row justify-between items-center mb-5">
+              
+              <TouchableOpacity 
+              onPress={()=> navigation.navigate('Exercise', exercises)}
+              style={{
+                shadowColor: 'black',
+                shadowRadius: 40,
+                shadowOffset: {width: -20, height: -10},
+                shadowOpacity: 1,
+              }} className="p-4 bg-white rounded-full">
+                <PlusIcon size="25" strokeWidth={2} color={themeColors.bgDark} />
+              </TouchableOpacity>
+            </View>
+          </View>
+      </View>
+    
+  )
+}
