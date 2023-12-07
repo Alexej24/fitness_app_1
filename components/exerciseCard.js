@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native'; // Добавлен импорт
@@ -41,23 +40,3 @@ const styles = StyleSheet.create({
 });
 
 export default ExerciseCard;
-=======
-import { View, Text, Image, TouchableOpacity, TouchableWithoutFeedback, Dimensions, Platform } from 'react-native'
-import React from 'react'
-import { themeColors } from '../theme'
-import { useNavigation } from '@react-navigation/native'
-import { StarIcon } from 'react-native-heroicons/solid';
-import { PlusIcon } from 'react-native-heroicons/outline';
-
-function ExerciseCard(exercise) {
-  console.log(exercise)
-  return (
-    <View className="flex-1 relative bg-white">
-      <Text>{exercise.name}</Text>
-    </View>
-    
-  )
-}
-
-export default ExerciseCard
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2

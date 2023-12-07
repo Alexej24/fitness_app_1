@@ -37,11 +37,7 @@ export const coffeeItems = [
     important: '7/10',
     stars: '4.6',
     image: require('../assets/images/muscles1.png'),
-<<<<<<< HEAD
     desc: 'ahueli The taste of coffee can vary depending on factors such as the type of beans, roast level, brewing method, and the addition of any flavors or sweeteners.The taste of coffee can vary depending on factors such as the type of beans, roast level, brewing method, and the addition of any flavors or sweeteners.The taste of coffee can vary depending on factors such as the type of beans, roast level, brewing method, and the addition of any flavors or sweeteners.',
-=======
-    desc: 'The taste of coffee can vary depending on factors such as the type of beans, roast level, brewing method, and the addition of any flavors or sweeteners.',
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
   },
   
   {
@@ -87,7 +83,6 @@ export const coffeeItems = [
 export const chestItems = [
   {
     id:1,
-<<<<<<< HEAD
     name:'Bench press on an inclined bench up',
     image: require('../assets/images/chest1.jpg'),
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
@@ -111,20 +106,11 @@ export const chestItems = [
     warn:'1. While performing this exercise pay attention to the movement of the arms and trying not to use inertial force.\n2. When lowering the dumbbell to the starting position, fully straighten the working arm.\n3. Make sure that your back is always straight and your chest is elevated.'
   }
 
-=======
-    name:'Dick',
-  },
-  {
-    id:2,
-    name:'Suck',
-  }
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
 ]
 
 export const legsItems = [
   {
     id:1,
-<<<<<<< HEAD
     name:'Aerial squats',
     image: require('../assets/images/legs1.jpg'),
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
@@ -148,16 +134,11 @@ export const legsItems = [
     warn:'1. While performing this exercise pay attention to the movement of the arms and trying not to use inertial force.\n2. When lowering the dumbbell to the starting position, fully straighten the working arm.\n3. Make sure that your back is always straight and your chest is elevated.'
   }
     
-=======
-    name:'Chest',
-  }
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
 ]
 
 export const absItems = [
   {
     id:1,
-<<<<<<< HEAD
     name:'Diagonal twisting',
     image: require('../assets/images/abs1.jpg'),
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
@@ -179,16 +160,12 @@ export const absItems = [
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
     inst:'1. Take the dumbbells in your hands. Lower them so that your palms are facing toward your body.\n2. Breathe out and bend the arm, trying to reach the shoulders with the dumbbells.\n3. As you inhale smoothly return the arms to the starting position.', 
     warn:'1. While performing this exercise pay attention to the movement of the arms and trying not to use inertial force.\n2. When lowering the dumbbell to the starting position, fully straighten the working arm.\n3. Make sure that your back is always straight and your chest is elevated.'
-=======
-    name:'Chest',
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
   }
 ]
 
 export const backItems = [
   {
     id:1,
-<<<<<<< HEAD
     name:'Commando pull up',
     image: require('../assets/images/back1.jpg'),
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
@@ -210,16 +187,12 @@ export const backItems = [
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
     inst:'1. Take the dumbbells in your hands. Lower them so that your palms are facing toward your body.\n2. Breathe out and bend the arm, trying to reach the shoulders with the dumbbells.\n3. As you inhale smoothly return the arms to the starting position.', 
     warn:'1. While performing this exercise pay attention to the movement of the arms and trying not to use inertial force.\n2. When lowering the dumbbell to the starting position, fully straighten the working arm.\n3. Make sure that your back is always straight and your chest is elevated.'
-=======
-    name:'Chest',
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
   }
 ]
 
 export const bicepsItems = [
   {
     id:1,
-<<<<<<< HEAD
     name:'Barbell curl',
     image: require('../assets/images/bic1.jpg'),
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
@@ -241,8 +214,5 @@ export const bicepsItems = [
     desc: 'This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps.This is one of the variations of the pull up that is aimed at developing the muscles of the back.This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. This is one of the variations of the pull up that is aimed at developing the muscles of the back. This exercise engages the latissimus dorsi, the rhomboid and trapezius muscles, the rectus abdominis muscles, the abs and the biceps. ',
     inst:'1. Take the dumbbells in your hands. Lower them so that your palms are facing toward your body.\n2. Breathe out and bend the arm, trying to reach the shoulders with the dumbbells.\n3. As you inhale smoothly return the arms to the starting position.', 
     warn:'1. While performing this exercise pay attention to the movement of the arms and trying not to use inertial force.\n2. When lowering the dumbbell to the starting position, fully straighten the working arm.\n3. Make sure that your back is always straight and your chest is elevated.'
-=======
-    name:'Chest',
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
   }
 ]

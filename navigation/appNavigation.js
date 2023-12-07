@@ -26,10 +26,7 @@ export default function AppNavigation() {
       }}>
         <Stack.Screen name="Home" options={{headerShown: false}} component={HomeTabs} />
         <Stack.Screen name="Exercise" options={{headerShown: false}} component={ExerciseScreen} />
-<<<<<<< HEAD
         <Stack.Screen name="Product" options={{headerShown: false}} component={ProductScreen} />
-=======
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
       </Stack.Navigator>
     </NavigationContainer>
   )
@@ -61,11 +58,7 @@ function HomeTabs(){
       >
       <Tab.Screen name="home" component={HomeScreen} />
       <Tab.Screen name="favourite" component={HomeScreen} />
-<<<<<<< HEAD
      
-=======
-      <Tab.Screen name="cart" component={HomeScreen} />
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
     </Tab.Navigator>
   )
 }

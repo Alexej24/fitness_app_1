@@ -15,11 +15,7 @@ export default function HomeScreen() {
   const [activeCategory, setActiveCategory] = useState(1);
 
   return (
-<<<<<<< HEAD
     <View className="flex-1 relative bg-#FFF9C4">
-=======
-    <View className="flex-1 relative bg-white">
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
       <StatusBar />
 
       <Image 
@@ -27,26 +23,15 @@ export default function HomeScreen() {
         style={{height: height*0.2}} 
         className="w-full absolute -top-5 opacity-10" />
       <SafeAreaView className={ios? '-mb-8': ''}>
-<<<<<<< HEAD
         {}
         <View className="mx-4 flex-row justify-between items-center">
           <Image source={require('../assets/images/z1.jpg')} 
             className="h-10 w-10 rounded-full" />
-=======
-        {/* avatar and bell icon */}
-        <View className="mx-4 flex-row justify-between items-center">
-          <Image source={require('../assets/images/avatar.png')} 
-            className="h-9 w-9 rounded-full" />
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
           
           <View className="flex-row items-center space-x-2">
             <MapPinIcon size="25" color={themeColors.bgLight} />
             <Text className="font-semibold text-base">
-<<<<<<< HEAD
               MINSK , BELARUS
-=======
-              New York, NYC
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
             </Text>
           </View>
           <BellIcon size="27" color="black" />

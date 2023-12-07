@@ -12,7 +12,6 @@ export default function CoffeeCard({item}) {
   let exercises;
   switch(item.id){
     case 1:{
-<<<<<<< HEAD
       exercises = chestItems;
       break;
     }
@@ -37,24 +36,6 @@ export default function CoffeeCard({item}) {
       break;
     }
   }
-=======
-      exercises = chestItems
-    }
-    case 2:{
-      exercises = legsItems
-    }
-    case 3:{
-      exercises = absItems
-    }
-    case 4:{
-      exercises = backItems
-    }
-    case 5:{
-      exercises = bicepsItems
-    }
-  }
-
->>>>>>> bc3f573123dbc1092940e5caafd3e7c0ab445df2
   return (
 
       <View 
